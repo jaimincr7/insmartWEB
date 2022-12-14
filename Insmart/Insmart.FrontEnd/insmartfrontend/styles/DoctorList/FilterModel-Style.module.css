@@ -1,0 +1,264 @@
+.mainmodalfltcov  .modal-header {
+    padding: 0;
+    border-bottom: 0;
+}
+
+.mainmodalfltcov .modal-header button {
+    font-size: 14px;
+    color: #174799;
+    padding: 0 !important;
+    position: absolute;
+    right: 14px;
+    top: 15px;
+    z-index: 99;
+}
+
+.tabnavbar-set {
+    overflow: auto;
+}
+
+.tabnavbar-set .nav-item {
+    margin-right: 8px;
+}
+
+.filtermodel-cover .nav-pills {
+    display: inline-flex;
+    width: 100%;
+    border-bottom: 2px solid #E5E5E5;
+    margin-bottom: 20px;
+}
+
+.filtermodel-cover .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background: transparent;
+    color: #B01F24 !important;
+    border-bottom: 2px solid #B01F24;
+    border-radius: 0;
+}
+
+.filtermodel-cover .nav-pills .nav-link {
+    border-radius: 0 !important;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: -2px;
+}
+
+.filtermodel-cover .nav-item a {
+    font-size: 15px;
+    color: #172338;
+    padding: 10px 8px;
+}
+
+/*** Hospital Group CSS***/
+
+.hospitallist-cover {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+.hospitaldet-set {
+    display: inline-flex;
+    width: 24%;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.hospitaldet-cover {
+    display: inline-flex;
+    width: 100%;
+}
+
+.hospitaldet-set label {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 6px;
+    padding: 15px;
+}
+
+.hospitaldet-set input[type="checkbox"] {
+    accent-color: #174799;
+}
+
+.hospitaldet-set label img {
+    width: 120px;
+    margin-bottom: 8px;
+}
+
+.hospitaldet-set label p {
+    font-size: 14px;
+    color: #174799;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.hospitaldet-set input {
+    position: absolute;
+    right: 6px;
+    top: 6px;
+    width: 15px;
+    height: 18px;
+}
+
+.applyfilter-cover {
+    display: inline-flex;
+    width: 100%;
+    justify-content: end;
+}
+
+.clearfilter {
+    color: #B01F24;
+    background: #ffffff;
+    border: 0;
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 12px;
+}
+
+.clearfilter:hover {
+    color: #B01F24 !important;
+    background: #ffffff !important;
+    border-color: transparent !important;
+}
+
+.applyfilter {
+    color: #ffffff;
+    background: #B01F24 !important;
+    border: 0;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 16px;
+    border-radius: 6px;
+}
+
+.applyfilter:hover {
+    color: #ffffff;
+    background: #B01F24;
+    border-color: transparent;
+}
+
+/*** End Hospital Group CSS***/
+
+
+/*** Experience CSS***/
+
+.experience-filter {
+    display: inline-block;
+    width: 100%;
+    padding-top: 10px;
+    flex-wrap: wrap;
+}
+
+.experiencedet-set {
+    display: inline-block;
+    width: auto;
+    position: relative;
+    margin-bottom: 15px;
+    border: 1px solid #E5E5E5;
+    border-radius: 6px;
+    padding: 8px 15px;
+    margin-right: 2%;
+    padding-left: 35px;
+}
+
+.experiencedet-set label {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #7E7E7E;
+    font-weight: 500;
+    padding-top: 2px;
+}
+
+.experiencedet-set input[type="checkbox"] {
+    accent-color: #174799;
+}
+
+.experiencedet-set input {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    position: absolute;
+    top: 13px;
+    left: 10px;
+    margin: 0 !important;
+}
+
+.experiencedet-set input:checked+label {
+    color: #174799;
+}
+
+.experiencedet-set .form-check{
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+}
+
+/*** End Experience CSS***/
+
+.mainmodalfltcov .modal-header {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.mainmodalfltcov .modal-content {
+    position: relative;
+}
+
+.mainmodalfltcov .modal-header .btn-close {
+    position: absolute;
+    top: 22px;
+    right: 22px;
+    font-size: 15px;
+}
+
+
+/*** Media Query CSS***/
+
+@media (max-width: 991px) {
+    .modal-dialog {
+        max-width: 95%;
+    }
+}
+
+@media (max-width: 767px) {
+    .hospitaldet-set {
+        width: 49%;
+    }
+
+    
+}
+
+@media (max-width: 575px) {
+    
+}
+
+@media (max-width: 650px) {
+    .filtermodel-cover .nav-pills {
+        width: 600px;
+    }
+}
+
+@media (max-width: 480px) {
+    
+}
+
+@media (max-width: 380px) {
+    
+
+    .hospitaldet-set label img {
+        width: 100px;
+    }
+}
+
+/*** End Media Query CSS***/
